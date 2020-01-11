@@ -16,9 +16,9 @@ Preliminary studies based on SegBo have been presented at the following conferen
 - Eitan Grossman and Steven Moran. What 'contact typologists' want from descriptive grammars. *Descriptive Grammars and Typology: The Challenges of Writing Grammars of Underdescribed and Endangered Languages* (Helsinki, March 2019).
 - Eitan Grossman. Rethinking the Uniformitarian Hypothesis. *Prague Linguistics* (Prague, 2019).
 
-The following publications are based on SegBo:
+The following papers are based on SegBo:
 
 - Grossman, Eitan, Elad Eisen, Dmitry Nikolaev and Steven Moran. Submitted. SegBo: A Database of Borrowed Sounds in the World’s Languages. *Language Resources and Evaluation*.
 - Eisen, Elad. 2019. *The typology of phonological segment borrowing*. Hebrew University of Jerusalem MA thesis.  
 
-Several articles using SegBo are in the works, and we are working on setting up a website to make the data accessible, so stay tuned.
+Several articles using SegBo are in the works, and we are working on setting up a website to make the data accessible via a GUI, so stay tuned.
