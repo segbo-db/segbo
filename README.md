@@ -13,8 +13,10 @@ Preliminary studies based on SegBo have been presented at the following conferen
 
 - Eitan Grossman, Elad Eisen, Dmitry Nikolaev and Steven Moran. How different were phonological distributions?: The World Survey of Phonological Segment Borrowing and the Uniformitarian Assumption. *Societas Linguistica Europaea* 52 (Leipzig, August 2019). Slides [here](https://www.academia.edu/40175937/How_different_were_phonological_distributions_The_typology_of_phonological_segment_borrowing_and_the_Uniformitarian_Assumption).
 - Eitan Grossman, Elad Eisen, Dmitry Nikolaev and Steven Moran. The typology of phonological segment borrowing. *Association for Linguistic Typology* 13 (Pavia, September 2019). Slides [here](https://www.academia.edu/41805315/The_typology_of_phonological_segment_borrowing).
-- Eitan Grossman and Steven Moran. What 'contact typologists' want from descriptive grammars. *Descriptive Grammars and Typology: The Challenges of Writing Grammars of Underdescribed and Endangered Languages* (Helsinki, March 2019).
+- Eitan Grossman and Steven Moran. What 'contact typologists' want from descriptive grammars. *Descriptive Grammars and Typology: The Challenges of Writing Grammars of Underdescribed and Endangered Languages* (Helsinki, March 2019). Slides [here](https://www.academia.edu/41805773/What_contact_typologists_want_from_grammatical_descriptions).
 - Eitan Grossman. Rethinking the Uniformitarian Hypothesis. *Prague Linguistics* (Prague, 2019).
+
+We'll also be presenting a poster at the next [EVOLANG in Brussels](https://brussels.evolang.org).
 
 The following papers are based on SegBo:
 
