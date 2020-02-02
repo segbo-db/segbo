@@ -9,6 +9,10 @@ SegBo is the first large-scale cross-linguistic database of borrowed phonologica
 
 The current version is a preliminary beta release with 66 data points (doculects) that contain 177 observations of segment borrowing. The full version contains over 500 data points and 1600+ observations. We are curating the data for release in 2020.
 
+If you use the SegBo data in your research, please cite the specific version for replicability purposes. We archive each release of SegBo in [Zenodo](https://doi.org/10.5281/zenodo.3633917).
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3633917.svg)](https://doi.org/10.5281/zenodo.3633917)
+
 Preliminary studies based on SegBo have been presented at the following conferences:
 
 - Eitan Grossman, Elad Eisen, Dmitry Nikolaev and Steven Moran. How different were phonological distributions?: The World Survey of Phonological Segment Borrowing and the Uniformitarian Assumption. *Societas Linguistica Europaea* 52 (Leipzig, August 2019). Slides [here](https://www.academia.edu/40175937/How_different_were_phonological_distributions_The_typology_of_phonological_segment_borrowing_and_the_Uniformitarian_Assumption).
