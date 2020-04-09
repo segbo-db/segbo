@@ -16,15 +16,19 @@ If you use the SegBo data in your research, please cite the specific version for
 Preliminary studies based on SegBo have been presented at the following conferences:
 
 - Eitan Grossman, Elad Eisen, Dmitry Nikolaev and Steven Moran. How different were phonological distributions?: The World Survey of Phonological Segment Borrowing and the Uniformitarian Assumption. *Societas Linguistica Europaea* 52 (Leipzig, August 2019). Slides [here](https://www.academia.edu/40175937/How_different_were_phonological_distributions_The_typology_of_phonological_segment_borrowing_and_the_Uniformitarian_Assumption).
+
 - Eitan Grossman, Elad Eisen, Dmitry Nikolaev and Steven Moran. The typology of phonological segment borrowing. *Association for Linguistic Typology* 13 (Pavia, September 2019). Slides [here](https://www.academia.edu/41805315/The_typology_of_phonological_segment_borrowing).
+
 - Eitan Grossman and Steven Moran. What 'contact typologists' want from descriptive grammars. *Descriptive Grammars and Typology: The Challenges of Writing Grammars of Underdescribed and Endangered Languages* (Helsinki, March 2019). Slides [here](https://www.academia.edu/41805773/What_contact_typologists_want_from_grammatical_descriptions).
+
 - Eitan Grossman. Rethinking the Uniformitarian Hypothesis. *Prague Linguistics* (Prague, 2019).
 
-We'll also be presenting a poster at the next [EVOLANG in Brussels](https://brussels.evolang.org).
+We had planned on presenting our work at [EVOLANG 13 in Brussels](https://brussels.evolang.org), but given the current circumstances, the conference has been cancelled. Our short paper is nevertheless available online: [https://brussels.evolang.org/proceedings/papers/EvoLang13_paper_182.pdf](https://brussels.evolang.org/proceedings/papers/EvoLang13_paper_182.pdf).
 
-The following papers are based on SegBo:
+The following work is based on SegBo:
 
-- Grossman, Eitan, Elad Eisen, Dmitry Nikolaev and Steven Moran. Submitted. SegBo: A Database of Borrowed Sounds in the World’s Languages. *Language Resources and Evaluation*.
+- Grossman, Eitan, Elad Eisen, Dmitry Nikolaev and Steven Moran. Submitted. SegBo: A Database of Borrowed Sounds in the World’s Languages. *Language Resources and Evaluation*. To appear May, 2020.
+
 - Eisen, Elad. 2019. *The typology of phonological segment borrowing*. Hebrew University of Jerusalem MA thesis.  
 
 Several articles using SegBo are in the works, and we are working on setting up a website to make the data accessible via a GUI, so stay tuned.
