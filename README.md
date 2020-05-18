@@ -2,12 +2,10 @@
 
 SegBo is the first large-scale cross-linguistic database of borrowed phonological segments. It is a work in progress by:
 
-- Eitan Grossman (The Hebrew University of Jerusalem)
-- Elad Eisen (The Hebrew University of Jerusalem)
-- Dmitry Nikolaev (The Hebrew University of Jerusalem)
-- Steven Moran (University of Zurich)
-
-The current version is a preliminary beta release with 66 data points (doculects) that contain 177 observations of segment borrowing. The full version contains over 500 data points and 1600+ observations. We are curating the data for release in 2020.
+- [Eitan Grossman](https://en.linguistics.huji.ac.il/people/eitan-grossman) (The Hebrew University of Jerusalem)
+- [Elad Eisen](https://en.linguistics.huji.ac.il/people/elad-eisen) (The Hebrew University of Jerusalem)
+- [Dmitry Nikolaev](https://www.su.se/english/profiles/dmni1849-1.465312) (Stockholm University)
+- [Steven Moran](https://www.spur.uzh.ch/en/aboutus/Personen/staff/postdocs/Steven-Moran.html) (University of Zurich)
 
 If you use the SegBo data in your research, please cite the specific version for replicability purposes. We archive each release of SegBo in [Zenodo](https://doi.org/10.5281/zenodo.3633917).
 
