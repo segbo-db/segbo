@@ -27,7 +27,7 @@ Preliminary studies based on SegBo have been presented at the following conferen
 
 The following work is based on SegBo:
 
-- Grossman, Eitan, Elad Eisan, Dmitry Nikolaev and Steven Moran. 2020. Revisiting the Uniformitarian Hypothesis: Can we detect recent changes in the typological frequencies of speech sounds?  In Proceedings of the 13th International Conference on the Evolution of Language (EVOLANG 2020). Online: https://brussels.evolang.org/proceedings/papers/EvoLang13_paper_182.pdf}
+- Grossman, Eitan, Elad Eisan, Dmitry Nikolaev and Steven Moran. 2020. Revisiting the Uniformitarian Hypothesis: Can we detect recent changes in the typological frequencies of speech sounds?  In Proceedings of the 13th International Conference on the Evolution of Language (EVOLANG 2020). Online: https://brussels.evolang.org/proceedings/papers/EvoLang13_paper_182.pdf.
 
 - Eisen, Elad. 2019. *The typology of phonological segment borrowing*. Hebrew University of Jerusalem MA thesis. 
 
