@@ -1,7 +1,7 @@
 SegBo: basic descriptive stats
 ================
 Steven Moran
-24 November, 2019
+18 May, 2020
 
 ``` r
 # Load the data
@@ -10,16 +10,16 @@ segbo <- read.csv('../../data/segbo_with_glottolog.csv')
 
 ``` r
 # Number of observations, i.e. number of borrowed sounds across the languages in SegBo
-kable(head(segbo %>% select(LanguageName, BorrowedSound) %>% distinct()))
+head(segbo %>% select(LanguageName, BorrowedSound) %>% distinct()) %>% kable()
 ```
 
 | LanguageName | BorrowedSound |
 |:-------------|:--------------|
-| Abau         | t             |
 | Abau         | d̠ʒ            |
+| Abau         | t             |
+| Abui         | ɡ             |
 | Abui         | ɟ             |
 | Abui         | ts            |
-| Abui         | ɡ             |
 | Abun         | d̠ʒ            |
 
 ``` r
@@ -30,7 +30,7 @@ nrow(segbo %>% select(LanguageName, BorrowedSound) %>% distinct())
 
 ``` r
 # Number of distinct donor languages or dialects (via Glottocodes)
-kable(head(segbo %>% select(SourceLanguageGlottocode) %>% distinct()))
+head(segbo %>% select(SourceLanguageGlottocode) %>% distinct()) %>% kable() 
 ```
 
 | SourceLanguageGlottocode |
@@ -46,11 +46,11 @@ kable(head(segbo %>% select(SourceLanguageGlottocode) %>% distinct()))
 nrow(segbo %>% select(SourceLanguageGlottocode) %>% distinct())
 ```
 
-    ## [1] 212
+    ## [1] 211
 
 ``` r
 # Number of distinct borrowing languages or dialects (via Glottocodes)
-kable(head(segbo %>% select(BorrowingLanguageGlottocode) %>% distinct()))
+head(segbo %>% select(BorrowingLanguageGlottocode) %>% distinct()) %>% kable()
 ```
 
 | BorrowingLanguageGlottocode |
@@ -70,7 +70,7 @@ nrow(segbo %>% select(BorrowingLanguageGlottocode) %>% distinct())
 
 ``` r
 # Number of distinct borrowing languages (as marked via ISO 639-3 codes)
-kable(head(segbo %>% select(iso639P3code) %>% distinct()))
+head(segbo %>% select(iso639P3code) %>% distinct()) %>% kable()
 ```
 
 | iso639P3code |
@@ -92,7 +92,7 @@ nrow(segbo %>% select(iso639P3code) %>% distinct())
 # Number of families for borrowing languages (note the empty field because we don't know for many data points where the sound was borrowed from)
 x <- segbo %>% select(SourceLanguageGlottocode, family_id)
 y <- x %>% group_by(family_id) %>% summarize(count=n())
-kable(head(y))
+head(y) %>% kable()
 ```
 
 | family\_id |  count|
@@ -114,7 +114,7 @@ nrow(y)
 # And number of families for source languages -- this isn't going to work now because the language family is tied to the BorrowingLanguage...
 x <- segbo %>% select(LanguageName, family_id)
 y <- x %>% group_by(family_id) %>% summarize(count=n())
-kable(head(y))
+head(y) %>% kable()
 ```
 
 | family\_id |  count|
