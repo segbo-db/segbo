@@ -6,4 +6,4 @@ Then run `1_merge_segbo_tables.Rmd` to merge the metadata and phonemes tables.
 
 Then run `2_merge_segbo_glottolog.Rmd` to merge in metadata from [Glottolog](https://glottolog.org/) (e.g. language area, genealogy).
 
-After this you should run the various tests in the `segbo/tests` directory.
+After this you should run the various tests in the [segbo/tests](../tests/) directory.
