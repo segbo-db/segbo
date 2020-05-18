@@ -1,0 +1,104 @@
+---
+title: "Data checks for SegBo data tables"
+author: "Steven Moran"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  github_document:
+  pandoc_args: --webtex
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, include=FALSE}
+library(dplyr)
+library(testthat)
+library(stringr)
+library(tidyr)
+library(bib2df)
+```
+
+## Data 
+
+```{r}
+# Load SegBo metadata and phonemes
+metadata <- read.csv('../data/SegBo database - Metadata.csv', stringsAsFactors = F) # Dumped from the Google Sheets
+phonemes <- read.csv('../data/SegBo database - Phonemes.csv', stringsAsFactors = F, na.strings = "") # Dumped from the Google Sheets
+```
+
+## Column types
+
+```{r}
+# Eyeball if there are any lookalikes in the typos listed in various columns
+table(metadata$Contributor)
+table(phonemes$OnlyInLoanwords)
+table(phonemes$Result)
+table(phonemes$NewDistinction)
+```
+
+## Duplicate phoneme check
+
+```{r}
+# Make sure there are no duplcate borrowed phonemes
+dups <- phonemes %>% group_by(InventoryID, BorrowedSound) %>% filter(n()>1) %>% select(InventoryID, BorrowingLanguageGlottocode, BorrowedSound)
+expect_equal(nrow(dups), 0)
+```
+
+## Bibliography check
+
+```{r}
+# Check the bibliography
+path <- '../bibliography/bibliography.bib'
+bib <- bib2df(path)
+```
+
+```{r}
+# Some entries have multiple comma separated IDs
+# which(!(metadata$BibTexKey %in% bib$BIBTEXKEY))
+# metadata[which(!(metadata$BibTexKey %in% bib$BIBTEXKEY)),]
+
+# Split them and get a list of all IDs
+keys <- bib$BIBTEXKEY
+split.keys <- str_split(keys, ",")
+split.keys <- split.keys %>% unlist()
+split.keys <- str_trim(split.keys)
+
+# All accounted for?
+expect_equal(nrow(metadata[which(!(split.keys %in% bib$BIBTEXKEY)),]), 0)
+
+# Matches both ways?
+which(!(bib$BIBTEXKEY %in% split.keys))
+```
+
+## Inventory IDs in metadata and phoneme tables?
+
+```{r}
+# Make sure all metadata Inventory IDs have rows in phonemes
+length(which(!(metadata$InventoryID %in% phonemes$InventoryID)))
+metadata[which(!(metadata$InventoryID %in% phonemes$InventoryID)),]
+# expect_equal(length(which(!(metadata$InventoryID %in% phonemes$InventoryID))), 0)
+```
+
+```{r}
+# Make sure every phoneme ID is in metadata
+phoneme.ids <- unique(phonemes$InventoryID)
+expect_true(all(phoneme.ids %in% metadata$InventoryID))
+```
+
+## Glottocodes check
+
+```{r}
+# Do the Glottocodes follow the correct format in the metadata?
+glottocode <- "([a-z0-9]{4})([0-9]{4})"
+expect_equal(length(which(!(str_detect(metadata$Glottocode, glottocode)))), 0)
+which(!(str_detect(metadata$Glottocode, glottocode)))
+metadata[which(!(str_detect(metadata$Glottocode, glottocode))), ]
+```
+
+```{r}
+# Do the Glottocodes follow the correct format in the phonemes?
+# expect_equal(length(which(!(str_detect(phonemes$BorrowingLanguageGlottocode, glottocode)))), 0)
+which(!(str_detect(phonemes$BorrowingLanguageGlottocode, glottocode)))
+metadata[which(!(str_detect(phonemes$BorrowingLanguageGlottocode, glottocode))), ]
+```

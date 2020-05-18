@@ -1,15 +1,15 @@
 Merge SegBo and Glottolog metadata
 ================
-Steven Moran &lt;<steven.moran@uzh.ch>&gt;
-24 November, 2019
+Steven Moran
+18 May, 2020
 
 ``` r
-# First run `1_merge_segbo_tables.Rmd to merge the SegBo Metadata and Phoneme tables
+# First run 1_merge_segbo_tables.Rmd to merge the SegBo Metadata and Phoneme tables
 segbo <- read.csv('../data/segbo_merged.csv', na.strings = "", stringsAsFactors = FALSE)
 ```
 
 ``` r
-# Glottolog 3.3 data (TODO: update)
+# Glottolog 3.3 data
 # https://cdstar.shh.mpg.de/bitstreams/EAEA0-E7DE-FA06-8817-0/glottolog_languoid.csv.zip
 languoids <- read.csv('../data/glottolog_languoid.csv/languoid.csv', stringsAsFactors = FALSE) 
 geo <- read.csv(url("https://cdstar.shh.mpg.de/bitstreams/EAEA0-E7DE-FA06-8817-0/languages_and_dialects_geo.csv"), stringsAsFactors = FALSE)
