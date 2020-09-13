@@ -25,9 +25,11 @@ Preliminary studies based on SegBo have been presented at the following conferen
 
 - Eitan Grossman. Rethinking the Uniformitarian Hypothesis. *Prague Linguistics* (Prague, 2019). 
 
-The following work is based on SegBo:
+The following published work is based on SegBo:
 
 - Grossman, Eitan, Elad Eisan, Dmitry Nikolaev and Steven Moran. 2020. Revisiting the Uniformitarian Hypothesis: Can we detect recent changes in the typological frequencies of speech sounds?  In Proceedings of the 13th International Conference on the Evolution of Language (EVOLANG 2020). Online: https://brussels.evolang.org/proceedings/papers/EvoLang13_paper_182.pdf.
+
+- Grossman, Eitan, Elad Eisen, Dmitry Nikolaev and Steven Moran. 2020. SegBo: A Database of Borrowed Sounds in the World’s Languages.  In Proceedings of the Twelfth International Conference on Language Resources and Evaluation (LREC 2020). Online: http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.654.pdf.
 
 - Eisen, Elad. 2019. *The typology of phonological segment borrowing*. Hebrew University of Jerusalem MA thesis. Online: https://www.researchgate.net/publication/341734023_The_Typology_of_Phonological_Segment_Borrowing.
 
