@@ -5,7 +5,7 @@ SegBo is the first large-scale cross-linguistic database of borrowed phonologica
 - [Eitan Grossman](https://en.linguistics.huji.ac.il/people/eitan-grossman) (The Hebrew University of Jerusalem)
 - [Elad Eisen](https://en.linguistics.huji.ac.il/people/elad-eisen) (The Hebrew University of Jerusalem)
 - [Dmitry Nikolaev](https://www.su.se/english/profiles/dmni1849-1.465312) (Stockholm University)
-- [Steven Moran](https://www.spur.uzh.ch/en/aboutus/Personen/staff/postdocs/Steven-Moran.html) (University of Zurich)
+- [Steven Moran](https://www.unine.ch/evolang/home/team/steven-moran.html) (University of Neuchâtel)
 
 and can be cited as:
 
