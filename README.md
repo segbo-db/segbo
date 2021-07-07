@@ -30,6 +30,7 @@ Preliminary studies based on SegBo have been presented at the following conferen
 - Eitan Grossman. Rethinking the Uniformitarian Hypothesis. *Prague Linguistics* (Prague, 2019). 
 
 The following published work is based on SegBo:
+- Steven Moran, Nicholas A. Lester and Eitan Grossman. Inferring recent evolutionary changes in speech sounds. *Philological Transactions of the Royal Society B* 376: 20200198. Part of special thematic issue on 'Reconstructing ancient languages.' Available [here](https://github.com/bdproto/bdproto/blob/master/rstb.2020.0198-2.pdf).
 
 - Grossman, Eitan, Elad Eisan, Dmitry Nikolaev and Steven Moran. 2020. Revisiting the Uniformitarian Hypothesis: Can we detect recent changes in the typological frequencies of speech sounds?  In Proceedings of the 13th International Conference on the Evolution of Language (EVOLANG 2020). Online: https://brussels.evolang.org/proceedings/papers/EvoLang13_paper_182.pdf.
 
