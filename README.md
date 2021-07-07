@@ -17,6 +17,10 @@ If you use the SegBo data in your research, please cite the specific version for
 
 Preliminary studies based on SegBo have been presented at the following conferences:
 
+- Elad Eisen, Eitan Grossman, Dmitry Nikolaev and Steven Moran. Defining and operationalizing `borrowability' in phonology. *5th Usage-Based Linguistics Conference* (Tel Aviv, July 5-7 2021). 
+
+- Steven Moran and Eitan Grossman. Temporal bias: a new type of bias for typologists to worry about. *5th Usage-Based Linguistics Conference* (Tel Aviv, July 5-7 2021). 
+
 - Eitan Grossman, Elad Eisen, Dmitry Nikolaev and Steven Moran. How different were phonological distributions?: The World Survey of Phonological Segment Borrowing and the Uniformitarian Assumption. *Societas Linguistica Europaea* 52 (Leipzig, August 2019). Slides [here](https://www.academia.edu/40175937/How_different_were_phonological_distributions_The_typology_of_phonological_segment_borrowing_and_the_Uniformitarian_Assumption).
 
 - Eitan Grossman, Elad Eisen, Dmitry Nikolaev and Steven Moran. The typology of phonological segment borrowing. *Association for Linguistic Typology* 13 (Pavia, September 2019). Slides [here](https://www.academia.edu/41805315/The_typology_of_phonological_segment_borrowing).
