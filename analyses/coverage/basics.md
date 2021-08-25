@@ -1,7 +1,7 @@
 SegBo: basic descriptive stats
 ================
 Steven Moran
-18 May, 2020
+24 August, 2021
 
 ``` r
 # Load the data
@@ -95,14 +95,14 @@ y <- x %>% group_by(family_id) %>% summarize(count=n())
 head(y) %>% kable()
 ```
 
-| family\_id |  count|
+| family\_id | count |
 |:-----------|------:|
-|            |     41|
-| abkh1242   |      1|
-| afro1255   |    144|
-| algi1248   |      1|
-| anga1289   |      2|
-| arau1255   |      7|
+|            |    41 |
+| abkh1242   |     1 |
+| afro1255   |   144 |
+| algi1248   |     1 |
+| anga1289   |     2 |
+| arau1255   |     7 |
 
 ``` r
 nrow(y)
@@ -117,17 +117,32 @@ y <- x %>% group_by(family_id) %>% summarize(count=n())
 head(y) %>% kable()
 ```
 
-| family\_id |  count|
+| family\_id | count |
 |:-----------|------:|
-|            |     41|
-| abkh1242   |      1|
-| afro1255   |    144|
-| algi1248   |      1|
-| anga1289   |      2|
-| arau1255   |      7|
+|            |    41 |
+| abkh1242   |     1 |
+| afro1255   |   144 |
+| algi1248   |     1 |
+| anga1289   |     2 |
+| arau1255   |     7 |
 
 ``` r
 nrow(y)
 ```
 
     ## [1] 96
+
+``` r
+areas <- segbo %>% select(InventoryID, Glottocode, macroarea) %>% distinct()
+table(areas$macroarea) %>% kable()
+```
+
+| Var1          | Freq |
+|:--------------|-----:|
+|               |    3 |
+| Africa        |   62 |
+| Australia     |   21 |
+| Eurasia       |  145 |
+| North America |   45 |
+| Papunesia     |  203 |
+| South America |   45 |

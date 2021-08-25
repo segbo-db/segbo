@@ -45,8 +45,6 @@ head(segbo %>% select(iso639P3code) %>% distinct()) %>% kable()
 nrow(segbo %>% select(iso639P3code) %>% distinct())
 ```
 
-
-
 ```{r}
 # Number of families for borrowing languages (note the empty field because we don't know for many data points where the sound was borrowed from)
 x <- segbo %>% select(SourceLanguageGlottocode, family_id)
@@ -63,3 +61,7 @@ head(y) %>% kable()
 nrow(y)
 ```
 
+```{r}
+areas <- segbo %>% select(InventoryID, Glottocode, macroarea) %>% distinct()
+table(areas$macroarea) %>% kable()
+```
