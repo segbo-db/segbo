@@ -15,6 +15,12 @@ If you use the SegBo data in your research, please cite the specific version for
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3633917.svg)](https://doi.org/10.5281/zenodo.3633917)
 
+SegBo data are availble in the [Cross-Linguistic Data Format](https://cldf.clld.org) here:
+
+https://github.com/cldf-datasets/segbo
+
+This data format integrates [Glottolog](https://glottolog.org) metadata about the languages in the SegBo sample.
+
 Preliminary studies based on SegBo have been presented at the following conferences:
 
 - Elad Eisen, Eitan Grossman, Dmitry Nikolaev and Steven Moran. Defining and operationalizing `borrowability' in phonology. *5th Usage-Based Linguistics Conference* (Tel Aviv, July 5-7 2021). 
