@@ -32,7 +32,7 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 33,buru1296,,Burushaski,Morgenstierne1945,bsk_SPA1979_phon.pdf,Steven Moran,,6
 34,cahu1264,,Cahuilla,seiler1977cahuilla,,David Ginebra,,
 35,stan1288,,Castilian,"martinez2003castilian, frias2001spanish",,Dmitry Nikolaev,,
-36,cent2142,,Central Aymara,hardman2001aymara,,NA,,
+36,cent2142,,Central Aymara,hardman2001aymara,hardman2001aymara.pdf,NA,,
 37,cent2050,,Central Kanuri,Lukas1937,knc_SPA1979_phon.pdf,Steven Moran,,150
 38,nort2697,,Central Oghuz,schoenig1998azerbaijanian,,KurdistanDB,,
 39,lish1247,,Challa Neo-Aramaic (Jewish NENA),fassberg2010challa,,KurdistanDB,,
@@ -236,7 +236,7 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 250,uigh1240,,Uighur,"hahn1998uyghur, hahn2006uyghur",,NA,,
 251,ukra1253,,Ukrainian,shevelov1993ukrainian,,Chingduang Yurayong,,
 252,hert1241,umra1238,Umraya,hobrack2000umraya,,KurdistanDB,,
-253,urar1246,,Urarina,olawsky2006urarina,,NA,,
+253,urar1246,,Urarina,olawsky2006urarina,olawsky2006urarina.pdf,NA,,
 254,nort2690,,Uzbek,boeschoten1998uzbek,,Dmitry Nikolaev,,
 255,vafs1240,,Vafsi,stilo2004vafsi,,KurdistanDB,,
 256,waim1255,,Waimaha,StolteStolte1971,mlt_SPA1979_phon.pdf,Steven Moran,,114
@@ -248,7 +248,7 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 262,west2392,,Western Mari,alhoniemi1993mari,,Daria Zhornik,,
 263,moro1287,,Wita Ea,andersen1999witaea,,Einav Levanon,,
 264,wutu1241,,Wutunhua,sandman2016wutun,,Heini Arjava,,
-265,yane1238,,Yanesha',adelaar2007yanesha,,Eitan Grossman,,
+265,yane1238,,Yanesha',adelaar2007yanesha,adelaar2007yanesha.pdf,Eitan Grossman,,
 266,yima1243,,Yimas,foley1991yimas,,Einav Levanon,,
 267,gura1251,,Zarda Gorani,mahmoudveysi2013zardagorani,,KurdistanDB,,
 268,chuv1255,,Chuvash,"Kruger1961,Andreev1966",chv_SPA1979_phon.pdf,Steven Moran,,189
