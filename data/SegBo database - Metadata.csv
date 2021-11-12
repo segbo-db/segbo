@@ -286,7 +286,7 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 306,friu1240,,Friulian,miotti2002friulian,,Eitan Grossman,,
 307,guja1253,,Gujari (Gojri),losey2002gujari,,Eitan Grossman,,
 308,mose1249,,Mosetén,sakel2004moseten,,Vanya Levin,,
-309,osse1243,,Ossetian,hettich2002ossetian,,Daniel Wilson,,
+309,iron1242,,Ossetian,hettich2002ossetian,hettich2002ossetian.pdf,Daniel Wilson,Assigned Iron Ossetian based on Glottolog,
 310,nort3142,,Baghdad Arabic (Christian),abuhaidar1991baghdadchristianarabic,,Nikita Kuzin,,
 311,ukaa1243,,Ukaan,abiodun1999ukaan,,Polina Pleshak,,
 312,tuvi1240,,Tuvan,harrison2000tuvan,,Vanya Levin,,
