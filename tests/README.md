@@ -1,7 +1,7 @@
 Data checks for SegBo data tables
 ================
 Steven Moran
-06 November, 2021
+12 November, 2021
 
 Load libraries.
 
@@ -225,8 +225,16 @@ metadata file.
 
 ``` r
 glottolog <- read_csv('https://cdstar.eva.mpg.de/bitstreams/EAEA0-E62D-ED67-FD05-0/languages_and_dialects_geo.csv')
-# metadata[which(!(metadata$Glottocode %in% glottolog$glottocode)),]
-# expect_true(all(metadata$Glottocode %in% glottolog$glottocode))
+metadata[which(!(metadata$Glottocode %in% glottolog$glottocode)),]
+```
+
+    ## [1] InventoryID      Glottocode       Dialect          LanguageName    
+    ## [5] BibTexKey        Filename         Contributor      MetadataComments
+    ## [9] PhoibleID       
+    ## <0 rows> (or 0-length row.names)
+
+``` r
+expect_true(all(metadata$Glottocode %in% glottolog$glottocode))
 ```
 
 Let’s check that all Glottocodes are at the language level at the source

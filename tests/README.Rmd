@@ -109,8 +109,8 @@ Let's check that all Glottocodes are at the language level in the metadata file.
 
 ```{r, message=FALSE}
 glottolog <- read_csv('https://cdstar.eva.mpg.de/bitstreams/EAEA0-E62D-ED67-FD05-0/languages_and_dialects_geo.csv')
-# metadata[which(!(metadata$Glottocode %in% glottolog$glottocode)),]
-# expect_true(all(metadata$Glottocode %in% glottolog$glottocode))
+metadata[which(!(metadata$Glottocode %in% glottolog$glottocode)),]
+expect_true(all(metadata$Glottocode %in% glottolog$glottocode))
 ```
 
 Let's check that all Glottocodes are at the language level at the source level in the phonemes file. First we need to unlist the column, which may have multiple language codes in it.
