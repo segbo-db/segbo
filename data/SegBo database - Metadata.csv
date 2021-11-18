@@ -11,7 +11,7 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 10,amap1240,,Ama (Papua New Guinea),aarsjo1999ama,,Einav Levanon,,
 13,wara1294,,Anta-Komnzo-Wára-Wérè-Kémä,dohler2016komnzo,,Einav Levanon,,
 14,lish1245,arbe1239,Arbel,khan1999arbel,,KurdistanDB,,
-15,stan1288,,Argentinian Spanish,honsa1965argentinianspanish,,Elad Eisen,glottocode is for Standard Spanish,
+15,stan1288,riop1234,Argentinian Spanish,honsa1965argentinianspanish,honsa1965argentinianspanish,Elad Eisen,glottocode is for Standard Spanish,
 16,asil1242,,Asilulu,collins2003asilulu,,Einav Levanon,,
 17,awiy1238,,Awiyaana,Bees1965,auy_SPA1979_phon.pdf,Steven Moran,,57
 18,bafu1246,,Bafut,tamanji2009bafut,,Elad Eisen,,
@@ -31,7 +31,7 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 32,nucl1310,,Burmese,wheatley2003burmese,,Eitan Grossman,,
 33,buru1296,,Burushaski,Morgenstierne1945,bsk_SPA1979_phon.pdf,Steven Moran,,6
 34,cahu1264,,Cahuilla,seiler1977cahuilla,,David Ginebra,,
-35,stan1288,,Castilian,"martinez2003castilian, frias2001spanish",,Dmitry Nikolaev,,
+35,stan1288,cast1244,Castilian,"martinez2003castilian, frias2001spanish",,Dmitry Nikolaev,,
 36,cent2142,,Central Aymara,hardman2001aymara,hardman2001aymara.pdf,NA,,
 37,cent2050,,Central Kanuri,Lukas1937,knc_SPA1979_phon.pdf,Steven Moran,,150
 38,nort2697,,Central Oghuz,schoenig1998azerbaijanian,,KurdistanDB,,
@@ -103,7 +103,7 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 111,khva1239,,Khwarshi-Inkhoqwari,khalilova2009khwarshi,,NA,,
 112,nort3142,,Anatolian Arabic,jastrow2006anatolianarabic,,KurdistanDB,,
 113,kipu1237,,Kiput,blust2003short,,Einav Levanon,,
-114,doro1266,koki1244,Koki,bradshaw2012koki,,Einav Levanon,,
+114,doro1266,koki1244,Koki,bradshaw2012koki,bradshaw2012koki,Einav Levanon,,
 115,kome1238,,Komering,abdurrahman1979komering,,Einav Levanon,,
 116,komi1269,,Komi-Permyak,majshev1940komi_permjak,,Dmitry Nikolaev,,
 117,komi1277,,Komi-Yazva,lytkin1961komi_yazva,,Dmitry Nikolaev,,
