@@ -1,7 +1,7 @@
 Data checks for SegBo data tables
 ================
 Steven Moran
-12 November, 2021
+18 November, 2021
 
 Load libraries.
 
@@ -48,7 +48,7 @@ table(phonemes$OnlyInLoanwords)
 
     ## 
     ##  mostly      no unknown     yes 
-    ##     115     276     130    1143
+    ##     115     276     130    1142
 
 ``` r
 table(phonemes$Result)
@@ -58,7 +58,7 @@ table(phonemes$Result)
     ##                  new phoneme  other distributional change 
     ##                          867                          221 
     ## phonologization of allophone                to be checked 
-    ##                          105                          377 
+    ##                          105                          376 
     ##                      unknown 
     ##                           83
 
@@ -98,7 +98,7 @@ table(phonemes$NewDistinction)
     ##                     rhotic                        tap 
     ##                         21                          3 
     ##                tap, rhotic              to be checked 
-    ##                          1                        595 
+    ##                          1                        594 
     ##                      trill                    unknown 
     ##                          7                        135 
     ##                     uvular                      velar 
@@ -262,3 +262,19 @@ table(x$SourceLanguageGlottocode)
     ## 
     ## unknown 
     ##     475
+
+To check whether the donor language is reported as the borrowing
+language in terms of Glottocodes, we first get the mappings from source
+language to borrowing language. And then test that none are the same.
+
+``` r
+lang_mappings <- phonemes %>% select(BorrowingLanguageGlottocode, SourceLanguageGlottocode)
+
+lang_mappings <- lang_mappings %>% 
+  mutate(SourceLanguageGlottocode = strsplit(as.character(SourceLanguageGlottocode), ",")) %>% 
+  unnest(SourceLanguageGlottocode) %>% 
+  arrange(SourceLanguageGlottocode, BorrowingLanguageGlottocode) %>%
+  select(SourceLanguageGlottocode, BorrowingLanguageGlottocode)
+
+expect_equal(nrow(lang_mappings %>% filter(SourceLanguageGlottocode == BorrowingLanguageGlottocode)), 0)
+```

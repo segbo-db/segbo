@@ -132,5 +132,17 @@ x <- source_lang_codes[which(!(source_lang_codes$SourceLanguageGlottocode %in% g
 table(x$SourceLanguageGlottocode)
 ```
 
+To check whether the donor language is reported as the borrowing language in terms of Glottocodes, we first get the mappings from source language to borrowing language. And then test that none are the same.
 
+```{r, message=FALSE}
+lang_mappings <- phonemes %>% select(BorrowingLanguageGlottocode, SourceLanguageGlottocode)
+
+lang_mappings <- lang_mappings %>% 
+  mutate(SourceLanguageGlottocode = strsplit(as.character(SourceLanguageGlottocode), ",")) %>% 
+  unnest(SourceLanguageGlottocode) %>% 
+  arrange(SourceLanguageGlottocode, BorrowingLanguageGlottocode) %>%
+  select(SourceLanguageGlottocode, BorrowingLanguageGlottocode)
+
+expect_equal(nrow(lang_mappings %>% filter(SourceLanguageGlottocode == BorrowingLanguageGlottocode)), 0)
+```
 
