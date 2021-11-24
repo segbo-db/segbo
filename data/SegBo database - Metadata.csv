@@ -7,11 +7,11 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 6,musa1266,,Aisi,daniels2015sogeram,,Einav Levanon,,
 7,akaj1239,,Aka-Jeru,abbi2013greatandamanese,,NA,,
 8,aleu1260,,Aleut,bergsland1997aleut,,Elad Eisen,,
-9,chal1275,alqo1238,Alqosh,coghill2004alqosh,,KurdistanDB,,
+9,chal1275,alqo1238,Alqosh,coghill2004alqosh,coghill2004alqosh.pdf,KurdistanDB,,
 10,amap1240,,Ama (Papua New Guinea),aarsjo1999ama,,Einav Levanon,,
 13,wara1294,,Anta-Komnzo-Wára-Wérè-Kémä,dohler2016komnzo,,Einav Levanon,,
 14,lish1245,arbe1239,Arbel,khan1999arbel,,KurdistanDB,,
-15,stan1288,riop1234,Argentinian Spanish,honsa1965argentinianspanish,honsa1965argentinianspanish,Elad Eisen,glottocode is for Standard Spanish,
+15,stan1288,riop1234,Argentinian Spanish,honsa1965argentinianspanish,honsa1965argentinianspanish.pdf,Elad Eisen,glottocode is for Standard Spanish,
 16,asil1242,,Asilulu,collins2003asilulu,,Einav Levanon,,
 17,awiy1238,,Awiyaana,Bees1965,auy_SPA1979_phon.pdf,Steven Moran,,57
 18,bafu1246,,Bafut,tamanji2009bafut,,Elad Eisen,,
@@ -103,7 +103,7 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 111,khva1239,,Khwarshi-Inkhoqwari,khalilova2009khwarshi,,NA,,
 112,nort3142,,Anatolian Arabic,jastrow2006anatolianarabic,,KurdistanDB,,
 113,kipu1237,,Kiput,blust2003short,,Einav Levanon,,
-114,doro1266,koki1244,Koki,bradshaw2012koki,bradshaw2012koki,Einav Levanon,,
+114,doro1266,koki1244,Koki,bradshaw2012koki,bradshaw2012koki.pdf,Einav Levanon,,
 115,kome1238,,Komering,abdurrahman1979komering,,Einav Levanon,,
 116,komi1269,,Komi-Permyak,majshev1940komi_permjak,,Dmitry Nikolaev,,
 117,komi1277,,Komi-Yazva,lytkin1961komi_yazva,,Dmitry Nikolaev,,
@@ -281,7 +281,7 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 301,belh1239,,Belhare,bickel2003belhare,,Eitan Grossman,,
 302,bond1245,,Bondo (Remo),fernandez1968remo,,Eitan Grossman,,
 303,czec1258,,Czech,dankovicova1997czech,,Eitan Grossman,,
-304,chra1242,,Chrau,thomas1971chrau,,Eitan Grossman,,
+304,chra1242,,Chrau,thomas1971chrau,thomas1971chrau.pdf,Eitan Grossman,,
 305,stan1290,,French,Sten1963,fra_SPA1979_phon.pdf,Eitan Grossman,,162
 306,friu1240,,Friulian,miotti2002friulian,,Eitan Grossman,,
 307,guja1253,,Gujari (Gojri),losey2002gujari,,Eitan Grossman,,
@@ -457,7 +457,7 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 483,tsou1248,,Tsou,tsuchida1975tsouic,,Einav Levanon,,
 484,tuam1242,,Tuamotuan,kuki1970tuamotuan,,Einav Levanon,,
 485,tugu1245,,Tugun,hinton1991tugun,,Einav Levanon,,
-486,tuka1248,,Tukang Besi North,donohue1999tukangbesi,,Einav Levanon,,
+486,tuka1248,,Tukang Besi North,donohue1999tukangbesi,donohue1999tukangbesi.pdf,Einav Levanon,,
 487,unua1237,,Unua,pearce2015unua,,Einav Levanon,,
 488,urak1238,,Urak Lawoi',steinhauer2008urak,,Einav Levanon,,
 489,vinm1237,,Neve'ei,musgrave2007neveei,,Einav Levanon,,
@@ -485,7 +485,7 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 511,berb1259,,Berbice Dutch,kouwenberg1994berbicedutch,,David Ginebra,,
 512,huam1248,,Huallaga (Huanuco) Quechua,weber1983huallagaquechua,,David Ginebra,,
 513,siam1242,,Siamou,1627_Haas_sif,Haas_sif.pdf,Elad Eisen,,1627
-514,sumb1240,,Sumbwa,1639_Kahigi_suw,Kahigi_suw.PDF,Elad Eisen,,1639
+514,sumb1240,,Sumbwa,1639_Kahigi_suw,Kahigi_suw.pdf,Elad Eisen,,1639
 515,amha1245,,Amharic,amh_hayward1992,amh_hayward1992.pdf,Elad Eisen,,2156
 516,awng1244,,Awngi,1542_awngi_2010,Hetzron1969.png,Elad Eisen,,234
 517,chum1261,,Chumburung,Hartell1993,ncu_Hartell1993_phon.pdf,Elad Eisen,,686

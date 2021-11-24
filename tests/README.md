@@ -1,7 +1,7 @@
 Data checks for SegBo data tables
 ================
 Steven Moran
-22 November, 2021
+24 November, 2021
 
 Load libraries.
 
@@ -278,3 +278,19 @@ lang_mappings <- lang_mappings %>%
 
 expect_equal(nrow(lang_mappings %>% filter(SourceLanguageGlottocode == BorrowingLanguageGlottocode)), 0)
 ```
+
+Check whether the segments in SegBo are also reported in
+[PHOIBLE](https://phoible.org).
+
+``` r
+phoible <- read_csv('https://raw.githubusercontent.com/phoible/dev/master/data/phoible.csv')
+phoible_segments <- phoible %>% select(Phoneme) %>% distinct()
+segbo_phonemes <- phonemes %>% select(BorrowedSound) %>% distinct()
+segbo_phonemes[which(!(segbo_phonemes$BorrowedSound %in% phoible_segments$Phoneme)),]
+```
+
+    ## [1] "ɹ̤"
+
+At the current time, this rhotic segment reported by Mahanta (2012) in
+Assamese (ID 285, assa1263) is under investigation (it is reported as a
+aspirated rhotic from Sanskrit).
