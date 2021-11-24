@@ -1,7 +1,7 @@
 ---
 title: "Data checks for SegBo data tables"
 author: "Steven Moran"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: "(`r format(Sys.time(), '%d %B, %Y')`)"
 output:
   github_document:
   pandoc_args: --webtex
@@ -9,7 +9,7 @@ output:
 
 Load libraries.
 
-```{r, echo=FALSE, include=FALSE}
+```{r, message=FALSE}
 library(tidyverse)
 library(testthat)
 library(bib2df)
@@ -25,7 +25,7 @@ phonemes <- read.csv('../data/SegBo database - Phonemes.csv', stringsAsFactors =
 Eyeball if there are any typos listed in various columns.
 
 ```{r}
-table(metadata$Contributor)
+# table(metadata$Contributor)
 table(phonemes$OnlyInLoanwords)
 table(phonemes$Result)
 table(phonemes$NewDistinction)
@@ -146,7 +146,7 @@ lang_mappings <- lang_mappings %>%
 expect_equal(nrow(lang_mappings %>% filter(SourceLanguageGlottocode == BorrowingLanguageGlottocode)), 0)
 ```
 
-Check whether the segments in SegBo are also reported in [PHOIBLE](https://phoible.org).
+Check whether the segments in SegBo are also reported in [PHOIBLE](https://phoible.org). At the current time, this rhotic segment reported by Mahanta (2012) in Assamese (ID 285, assa1263) is under investigation (it is reported as a aspirated rhotic from Sanskrit).
 
 ```{r, warning=FALSE, message=FALSE}
 phoible <- read_csv('https://raw.githubusercontent.com/phoible/dev/master/data/phoible.csv')
@@ -155,5 +155,27 @@ segbo_phonemes <- phonemes %>% select(BorrowedSound) %>% distinct()
 segbo_phonemes[which(!(segbo_phonemes$BorrowedSound %in% phoible_segments$Phoneme)),]
 ```
 
-At the current time, this rhotic segment reported by Mahanta (2012) in Assamese (ID 285, assa1263) is under investigation (it is reported as a aspirated rhotic from Sanskrit).
+How many languages in SegBo are not in PHOIBLE?
 
+```{r}
+tmp1 <- metadata %>% select(Glottocode) %>% distinct()
+tmp2 <- phoible %>% select(Glottocode) %>% distinct()
+```
+
+There are this many languages (glottocodes) in SegBo.
+
+```{r}
+nrow(tmp1)
+```
+
+There are this many languages in SegBo not in PHOIBLE.
+
+```{r}
+length(tmp1[which(!(tmp1$Glottocode %in% tmp2$Glottocode)),])
+```
+
+These are the languages that are not in PHOIBLE.
+
+```{r}
+tmp1[which(!(tmp1$Glottocode %in% tmp2$Glottocode)),]
+```

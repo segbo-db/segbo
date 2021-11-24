@@ -1,9 +1,15 @@
 Data checks for SegBo data tables
 ================
 Steven Moran
-24 November, 2021
+(24 November, 2021)
 
 Load libraries.
+
+``` r
+library(tidyverse)
+library(testthat)
+library(bib2df)
+```
 
 Load raw SegBo metadata and phoneme tables.
 
@@ -15,34 +21,7 @@ phonemes <- read.csv('../data/SegBo database - Phonemes.csv', stringsAsFactors =
 Eyeball if there are any typos listed in various columns.
 
 ``` r
-table(metadata$Contributor)
-```
-
-    ## 
-    ##       Aigul Zakirova        Anna Sorokina          Antti Laine 
-    ##                    1                    1                    1 
-    ##  Chingduang Yurayong        Daniel Wilson         Daniil Levin 
-    ##                    3                    1                    1 
-    ##        Daria Zhornik         Dasha Bikina        David Ginebra 
-    ##                    2                    1                   21 
-    ##      Dmitry Nikolaev        Einav Levanon       Eitan Grossman 
-    ##                   41                  191                   44 
-    ##           Elad Eisen       Ezequiel Koile       Haggai Kovatch 
-    ##                   78                    2                    6 
-    ##         Heini Arjava   Konstantin Filatov          KurdistanDB 
-    ##                    1                    1                   25 
-    ##       Linda Konnerth         Lotta Jalava         Nikita Kuzin 
-    ##                    1                    2                    1 
-    ##       Pavel Duryagin       Polina Pleshak        Rammie Cahlon 
-    ##                    2                    2                    4 
-    ##       Ruslan Idrisov         Steven Moran          Vanya Levin 
-    ##                    2                   63                    3 
-    ## Vasilisa Zhigulskaya       Yael Assouline           Yoav Yosef 
-    ##                    2                    1                    3 
-    ##          Yuval Sarig 
-    ##                    3
-
-``` r
+# table(metadata$Contributor)
 table(phonemes$OnlyInLoanwords)
 ```
 
@@ -280,7 +259,9 @@ expect_equal(nrow(lang_mappings %>% filter(SourceLanguageGlottocode == Borrowing
 ```
 
 Check whether the segments in SegBo are also reported in
-[PHOIBLE](https://phoible.org).
+[PHOIBLE](https://phoible.org). At the current time, this rhotic segment
+reported by Mahanta (2012) in Assamese (ID 285, assa1263) is under
+investigation (it is reported as a aspirated rhotic from Sanskrit).
 
 ``` r
 phoible <- read_csv('https://raw.githubusercontent.com/phoible/dev/master/data/phoible.csv')
@@ -291,6 +272,65 @@ segbo_phonemes[which(!(segbo_phonemes$BorrowedSound %in% phoible_segments$Phonem
 
     ## [1] "ɹ̤"
 
-At the current time, this rhotic segment reported by Mahanta (2012) in
-Assamese (ID 285, assa1263) is under investigation (it is reported as a
-aspirated rhotic from Sanskrit).
+How many languages in SegBo are not in PHOIBLE?
+
+``` r
+tmp1 <- metadata %>% select(Glottocode) %>% distinct()
+tmp2 <- phoible %>% select(Glottocode) %>% distinct()
+```
+
+There are this many languages (glottocodes) in SegBo.
+
+``` r
+nrow(tmp1)
+```
+
+    ## [1] 497
+
+There are this many languages in SegBo not in PHOIBLE.
+
+``` r
+length(tmp1[which(!(tmp1$Glottocode %in% tmp2$Glottocode)),])
+```
+
+    ## [1] 198
+
+These are the languages that are not in PHOIBLE.
+
+``` r
+tmp1[which(!(tmp1$Glottocode %in% tmp2$Glottocode)),]
+```
+
+    ##   [1] "abui1241" "abun1252" "musa1266" "akaj1239" "amap1240" "wara1294"
+    ##   [7] "lish1245" "asil1242" "assy1241" "bela1254" "lish1247" "bier1244"
+    ##  [13] "boht1238" "cahu1264" "coat1238" "copt1239" "dame1241" "dusn1237"
+    ##  [19] "edol1239" "gant1244" "gura1251" "gran1245" "hert1241" "itza1241"
+    ##  [25] "kala1373" "kaur1271" "kaza1248" "kend1254" "kham1281" "khva1239"
+    ##  [31] "nort3142" "kipu1237" "doro1266" "kome1238" "kona1242" "kora1294"
+    ##  [37] "kute1249" "louu1245" "maka1316" "mana1298" "payn1244" "nucl1706"
+    ##  [43] "mauw1238" "mehe1243" "mian1256" "miga1241" "mlah1239" "mong1330"
+    ##  [49] "mudu1242" "muss1246" "sout2857" "naka1262" "ngka1235" "noga1249"
+    ##  [55] "ocot1243" "oira1263" "pina1252" "pipi1250" "rian1263" "hula1244"
+    ##  [61] "sawe1240" "nort3139" "shor1247" "slav1254" "sooo1254" "sout2961"
+    ##  [67] "sril1245" "suab1238" "sout2808" "tafi1243" "bunu1267" "tauy1241"
+    ##  [73] "thao1240" "tond1251" "turk1303" "turo1239" "ughe1237" "vafs1240"
+    ##  [79] "wano1243" "wara1302" "west2548" "moro1287" "wutu1241" "yima1243"
+    ##  [85] "high1276" "iron1242" "ukaa1243" "caml1239" "chop1243" "midd1357"
+    ##  [91] "mart1256" "kolc1235" "abua1245" "agut1237" "akoy1238" "alor1247"
+    ##  [97] "amar1273" "anem1249" "apma1240" "aral1243" "baik1238" "bala1315"
+    ## [103] "balu1257" "beka1241" "blag1240" "bobo1255" "boto1242" "buli1255"
+    ## [109] "buna1278" "buru1303" "cent2100" "cent2101" "chek1238" "ciac1237"
+    ## [115] "daak1235" "dehu1237" "domm1246" "dumb1241" "ende1246" "foii1241"
+    ## [121] "ford1242" "gadd1244" "galo1243" "helo1243" "hiww1237" "inon1237"
+    ## [127] "jamb1236" "kaga1255" "kaga1256" "kana1286" "kapr1245" "kemb1249"
+    ## [133] "keri1250" "komo1261" "kove1237" "laiy1246" "lala1268" "lama1277"
+    ## [139] "lamp1242" "lamp1243" "lari1255" "lewo1244" "lund1271" "mama1276"
+    ## [145] "mans1262" "mati1250" "maya1282" "mini1251" "molb1237" "mort1237"
+    ## [151] "nali1244" "nang1262" "napu1241" "naue1237" "neng1238" "nese1235"
+    ## [157] "nucl1594" "pagu1249" "papu1250" "patt1249" "pend1242" "pile1238"
+    ## [163] "puka1242" "rata1244" "saar1237" "sahu1245" "samo1305" "sawi1256"
+    ## [169] "siwa1245" "sout2883" "sumb1241" "tagb1258" "taji1246" "teop1238"
+    ## [175] "tetu1246" "tido1248" "timu1262" "tiri1258" "toab1237" "tobe1252"
+    ## [181] "tobi1239" "tuam1242" "tugu1245" "unua1237" "urak1238" "vinm1237"
+    ## [187] "vure1239" "waim1252" "wand1267" "woli1241" "wotu1240" "wutu1244"
+    ## [193] "yabe1254" "yaum1237" "yuag1237" "rapa1244" "kana1281" "puma1239"
