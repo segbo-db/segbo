@@ -1,7 +1,7 @@
 Data checks for SegBo data tables
 ================
 Steven Moran
-(24 November, 2021)
+(29 November, 2021)
 
 Load libraries.
 
@@ -27,7 +27,7 @@ table(phonemes$OnlyInLoanwords)
 
     ## 
     ##  mostly      no unknown     yes 
-    ##     115     276     130    1142
+    ##     115     275     130    1142
 
 ``` r
 table(phonemes$Result)
@@ -39,7 +39,7 @@ table(phonemes$Result)
     ## phonologization of allophone                to be checked 
     ##                          105                          376 
     ##                      unknown 
-    ##                           83
+    ##                           82
 
 ``` r
 table(phonemes$NewDistinction)
@@ -77,7 +77,7 @@ table(phonemes$NewDistinction)
     ##                     rhotic                        tap 
     ##                         21                          3 
     ##                tap, rhotic              to be checked 
-    ##                          1                        594 
+    ##                          1                        587 
     ##                      trill                    unknown 
     ##                          7                        135 
     ##                     uvular                      velar 
@@ -239,8 +239,8 @@ table(x$SourceLanguageGlottocode)
 ```
 
     ## 
-    ## unknown 
-    ##     475
+    ## gree1276  unknown 
+    ##        2      472
 
 To check whether the donor language is reported as the borrowing
 language in terms of Glottocodes, we first get the mappings from source

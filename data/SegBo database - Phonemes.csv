@@ -1031,13 +1031,11 @@ an unstressed high front vowel or a front glide.",
 348,uppe1455,v,port1283,no,new phoneme,voicing in fricatives,"Also in ""creolized words that are somehow realigned on the Poruguese etymon""",
 348,uppe1455,z,port1283,no,new phoneme,voicing in fricatives,"Also in ""creolized words that are somehow realigned on the Poruguese etymon""",
 348,uppe1455,ʒ,port1283,no,new phoneme,voicing in fricatives,"Also in ""creolized words that are somehow realigned on the Poruguese etymon""",
-349,luch1239,ð,unknown,yes,new phoneme,to be checked,,
-349,luch1239,n̠d̠ʒ,unknown,no,unknown,to be checked,"significant increase in frequency
-Also renders Portuguese /ʒ/",
-349,luch1239,ʃ,unknown,yes,new phoneme,to be checked,,
-349,luch1239,t̪,unknown,yes,new phoneme,to be checked,,
-349,luch1239,ʒ,unknown,yes,new phoneme,to be checked,,
-349,luch1239,θ,unknown,yes,new phoneme,to be checked,,
+349,luch1239,ð,unknown,yes,new phoneme,,,Steven Moran
+349,luch1239,ʃ,unknown,yes,new phoneme,,,Steven Moran
+349,luch1239,t̪,unknown,yes,new phoneme,,,Steven Moran
+349,luch1239,ʒ,unknown,yes,new phoneme,,,Steven Moran
+349,luch1239,θ,unknown,yes,new phoneme,,,Steven Moran
 351,lagw1237,d̠ʒ,"bagi1246, stan1318, ngam1268, west2454",mostly,new phoneme,affricate,,
 351,lagw1237,ʃ,"cent2050, stan1318, stan1290",no,phonologization of allophone,to be checked,,
 351,lagw1237,t̠ʃ,"cent2050, stan1318",yes,new phoneme,affricate,,
@@ -1509,12 +1507,12 @@ There exists a native bisyllabic vocal sequence [u.a], but the borrowed one is m
 505,east2652,z,stan1318,yes,new phoneme,voicing in fricatives,Other source languages too,Eitan Grossman
 506,furu1242,ɾ,"sang1328, stan1290",yes,new phoneme,rhotic,long [r] occurs in interjections,Eitan Grossman
 506,furu1242,ʒ,stan1290,no,new phoneme,no,appears to affect the native realisation of /z/. Other source languages too,Eitan Grossman
-507,mach1266,ɡ,unknown,yes,new phoneme,no,,Eitan Grossman
-507,mach1266,mp,unknown,yes,new phoneme,no,,Eitan Grossman
-507,mach1266,p,unknown,yes,new phoneme,no,,Eitan Grossman
-508,argo1244,aː,stan1318,yes,new phoneme,vowel length,,Eitan Grossman
-508,argo1244,p,unknown,yes,new phoneme,no,"PHOIBLE marked it as aspirated, but source doesn't",Eitan Grossman
-508,argo1244,pʼ,unknown,yes,new phoneme,no,,Eitan Grossman
+507,mach1266,ɡ,unknown,yes,new phoneme,no,,"Eitan Grossman, Steven Moran"
+507,mach1266,mp,unknown,yes,new phoneme,no,,"Eitan Grossman, Steven Moran"
+507,mach1266,p,unknown,yes,new phoneme,no,,"Eitan Grossman, Steven Moran"
+508,argo1244,aː,stan1318,yes,new phoneme,vowel length,,"Eitan Grossman, Steven Moran"
+508,argo1244,p,gree1276,yes,new phoneme,no,,"Eitan Grossman, Steven Moran"
+508,argo1244,pʼ,gree1276,yes,new phoneme,no,,"Eitan Grossman, Steven Moran"
 509,bamb1269,h,stan1318,mostly,unknown,glottal,,Eitan Grossman
 509,bamb1269,p,stan1290,mostly,unknown,no,,Eitan Grossman
 510,mori1278,d̠ʒ,"stan1293, hind1269, mara1378, tami1289",mostly,new phoneme,to be checked,,Eitan Grossman
@@ -1535,10 +1533,10 @@ There exists a native bisyllabic vocal sequence [u.a], but the borrowed one is m
 515,amha1245,p,unknown,yes,new phoneme,to be checked,,
 515,amha1245,pʷʼ,unknown,yes,new phoneme,to be checked,,
 515,amha1245,pʼ,unknown,yes,new phoneme,to be checked,,
-516,awng1244,ɛ,amha1245,no,phonologization of allophone,to be checked,,Eitan Grossman
-516,awng1244,h,amha1245,mostly,unknown,glottal,can be omitted,Eitan Grossman
-517,chum1261,ɡ,unknown,yes,new phoneme,no,,Eitan Grossman
-517,chum1261,h,unknown,yes,new phoneme,glottal,,Eitan Grossman
+516,awng1244,ɨ,amha1245,no,phonologization of allophone,,,Steven Moran
+516,awng1244,h,amha1245,mostly,unknown,glottal,,Steven Moran
+517,chum1261,ɡ,unknown,yes,new phoneme,no,,Steven Moran
+517,chum1261,h,unknown,yes,new phoneme,glottal,,Steven Moran
 518,cavi1250,ɡ,stan1288,yes,new phoneme,to be checked,"the grammar only provides one example (gringo), along with examples in which the foreign sounds have been shaped to Cavineña existing sounds (iglesia)",
 518,cavi1250,ŋ,stan1288,yes,new phoneme,to be checked,"the grammar only provides one example (gringo), along with examples in which the foreign sounds have been shaped to Cavineña existing sounds (iglesia)",
 518,cavi1250,o,stan1288,yes,new phoneme,to be checked,"the grammar only provides one example (gringo), along with examples in which the foreign sounds have been shaped to Cavineña existing sounds (iglesia)",

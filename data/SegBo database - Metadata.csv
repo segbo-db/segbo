@@ -271,9 +271,9 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 287,slov1269,,Slovak,hanulikova2010slovak,,Vasilisa Zhigulskaya,,
 289,high1276,,Highland Popoluca,dejong2009sierrapopoluca,,NA,,
 290,sout2672,,Southeastern Pashayi,lamuwal2013southeastpashayi,,NA,,
-291,wich1264,,Wichí Lhamtés Güisnay (Misón La Paz dialect),1984_Avram2008,1984_Avram2008.pdf,Ezequiel Koile,,1984
+291,wich1264,,Wichí Lhamtés Güisnay (Misón La Paz dialect),1984_Avram2008,1984_Avram2008.pdf,Ezequiel Koile,,
 294,basq1248,,Goizueta Basque,hualde2010goizuetabasque,,Pavel Duryagin,,
-295,huam1247,,Huambisa,pena2015huambisa,http://linguistics.berkeley.edu/~saphon/en/inv/Huambisa.html,Dasha Bikina,,1948
+295,huam1247,,Huambisa,pena2015huambisa,http://linguistics.berkeley.edu/~saphon/en/inv/Huambisa.html,Dasha Bikina,,
 297,moks1248,,Moksha,bondarko1993mordvin,,Ruslan Idrisov,,
 298,erzy1239,,Erzya,bondarko1993mordvin,,Ruslan Idrisov,,
 299,awac1239,,Awa-Cuaiquer,curnow1997awapit,,Polina Pleshak,,
@@ -322,7 +322,7 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 343,kitj1240,,Kija/Kitja,blythe2001kija,,Elad Eisen,Data from Erich Round,
 344,mart1256,kart1247,Kartujarra,ogrady1988kartujarra,,Elad Eisen,Data from Erich Round,
 345,yayg1236,,Yaygir,morelli2012yaygir,,Elad Eisen,"Data from Erich Round, ask Eric by mail",
-346,koyr1242,,"Songhay, Koyraboro Senni",1274_songhay_heath1999,,Elad Eisen,,1274
+346,koyr1242,,"Songhay, Koyraboro Senni",1274_songhay_heath1999,ses_Heath1999.pdf,Elad Eisen,"Different segment count from phoible, which also reports marginal segments that are not borrowings.",1274
 347,heib1243,,Heiban,1497_hbn,hbn_Guest1997.pdf,Elad Eisen,,1497
 348,uppe1455,,Kriyol,1553_pov,pov_Kihm1994.pdf,Elad Eisen,,1553
 349,luch1239,,Lucazi,lch_fleisch2000,lch_fleisch2000_phon.pdf,Elad Eisen,,928
@@ -477,17 +477,17 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 503,chim1302,,Chimborazo Quichua,beukema1975chimborazoquichua,,David Ginebra,,
 504,sala1272,,Salasaca Quichua,mazaquiza2008salascaquechua,,David Ginebra,,
 505,east2652,,Eastern Oromo,1552_hae,hae_Owens1985.pdf,Elad Eisen,,1552
-506,furu1242,,Furu,fuu_boyeldieu2000,fuu_boyeldieu2000_phon.pdf,Elad Eisen,,878
+506,furu1242,,Furu,fuu_boyeldieu2000,fuu_boyeldieu2000_phon.pdf,Elad Eisen,"Different segment count from phoible, which also reports marginal segments that are not borrowings.",878
 507,mach1266,,Machame,1283_jmc_kiwoso,jmc_kiwoso.PDF,Elad Eisen,,1283
 508,argo1244,,Argobba,1396_hertzon,agj_Hudson1997.pdf,Elad Eisen,,1396
-509,bamb1269,,Bambara,"1496_beledugu_bam,1496_bam_green2010",bam_green2010.pdf,Elad Eisen,,1496
+509,bamb1269,,Bambara,green2010bambara,bam_green2010.pdf,Elad Eisen,,
 510,mori1278,,Morisyen,1569_mfe,mfe_Baker1972.pdf,Elad Eisen,,1569
 511,berb1259,,Berbice Dutch,kouwenberg1994berbicedutch,,David Ginebra,,
 512,huam1248,,Huallaga (Huanuco) Quechua,weber1983huallagaquechua,,David Ginebra,,
 513,siam1242,,Siamou,1627_Haas_sif,Haas_sif.pdf,Elad Eisen,,1627
 514,sumb1240,,Sumbwa,1639_Kahigi_suw,Kahigi_suw.pdf,Elad Eisen,,1639
 515,amha1245,,Amharic,amh_hayward1992,amh_hayward1992.pdf,Elad Eisen,,2156
-516,awng1244,,Awngi,1542_awngi_2010,Hetzron1969.png,Elad Eisen,,234
+516,awng1244,,Awngi,1542_awngi_2010,awngi_2010.pdf,Elad Eisen,,1542
 517,chum1261,,Chumburung,Hartell1993,ncu_Hartell1993_phon.pdf,Elad Eisen,,686
 518,cavi1250,,Cavineña,guillaume2004cavinena,,David Ginebra,,
 519,cham1318,,Chamicuro,parker1991chamicuro,,David Ginebra,,
