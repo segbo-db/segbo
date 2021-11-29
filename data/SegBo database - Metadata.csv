@@ -301,27 +301,27 @@ InventoryID,Glottocode,Dialect,LanguageName,BibTexKey,Filename,Contributor,Metad
 321,idom1241,,Idoma,1536_idu,idu_Blench2010.pdf,Elad Eisen,,1536
 322,nucl1440,,Masalit,1565_mls,mls_Edgar1989.pdf,Elad Eisen,,1565
 323,nubi1253,,Nubi,kcn_wellens2003,kcn_wellens2003_phon.pdf,Elad Eisen,,967
-324,wage1238,,Wageman/Wagiman,cook1987wagiman,,Elad Eisen,Data from Erich Round,
-325,midd1357,waal1238,Waalubal,crowley1978bandjalang,,Elad Eisen,Data from Erich Round,
-326,umbu1235,,Umbugarla,davies1989umbugarla,,Elad Eisen,Data from Erich Round,
-327,badi1246,,Badimaya,dunn1988badimaya,,Elad Eisen,Data from Erich Round,
-328,gunw1252,gune1238,Kune,evans2003bininjgunwok,,Elad Eisen,Data from Erich Round,
-329,wand1263,,Wandarang/Warndarang,heath1980warndarang,,Elad Eisen,Data from Erich Round,
-330,madh1244,,Madhimadhi,hercus1986madhimadhi,,Elad Eisen,Data from Erich Round,
-331,djam1255,jami1236,Jaminjung,schultzeberndt2000jaminjung,,Elad Eisen,Data from Erich Round,
+324,wage1238,,Wageman/Wagiman,cook1987wagiman,,Elad Eisen,Data from Erich Round,3006
+325,midd1357,waal1238,Waalubal,crowley1978bandjalang,,Elad Eisen,Data from Erich Round,2716
+326,umbu1235,,Umbugarla,davies1989umbugarla,,Elad Eisen,Data from Erich Round,2644
+327,badi1246,,Badimaya,dunn1988badimaya,,Elad Eisen,Data from Erich Round,2768
+328,gunw1252,gune1238,Kune,evans2003bininjgunwok,,Elad Eisen,Data from Erich Round,2658
+329,wand1263,,Wandarang/Warndarang,heath1980warndarang,,Elad Eisen,Data from Erich Round,2680
+330,madh1244,,Madhimadhi,hercus1986madhimadhi,,Elad Eisen,Data from Erich Round,2780
+331,djam1255,jami1236,Jaminjung,schultzeberndt2000jaminjung,,Elad Eisen,Data from Erich Round,2683
 332,iwai1244,,Iwaidja,teo2007iwaidjanmaung,,Elad Eisen,Data from Erich Round,
-333,anin1240,,Enindhilyakwa/Anindilyakwa,vanegmond2012enindhilyakwa,,Elad Eisen,Data from Erich Round,
-334,murr1258,murr1259,Murrinhpatha,mansfield2014murrinhpatha,,Elad Eisen,Data from Erich Round,
-335,djin1253,,Djinang,waters1988djinang,,Elad Eisen,Data from Erich Round,
-336,arab1267,,Arabana,hercus1994arabana,,Elad Eisen,Data from Erich Round,
-337,umpi1239,,Umpila,ogrady1988umpila,,Elad Eisen,Data from Erich Round,
+333,anin1240,,Enindhilyakwa/Anindilyakwa,vanegmond2012enindhilyakwa,,Elad Eisen,Data from Erich Round,2651
+334,murr1258,murr1259,Murrinhpatha,mansfield2014murrinhpatha,,Elad Eisen,Data from Erich Round,2634
+335,djin1253,,Djinang,waters1988djinang,,Elad Eisen,Data from Erich Round,2976
+336,arab1267,,Arabana,hercus1994arabana,,Elad Eisen,Data from Erich Round,2761
+337,umpi1239,,Umpila,ogrady1988umpila,,Elad Eisen,Data from Erich Round,2902
 338,gugu1254,,Koko Bera / Gugubera,black1999kokobere,,Elad Eisen,Data from Erich Round,
-339,nyam1271,,Nyamal,burgman2007nyamal,,Elad Eisen,Data from Erich Round,
-340,maun1240,,Mawng,singer2015mawng,,Elad Eisen,Data from Erich Round,
-342,yala1262,,Yalarnnga,breennodateyalarnnga,,Elad Eisen,Data from Erich Round,
+339,nyam1271,,Nyamal,burgman2007nyamal,,Elad Eisen,Data from Erich Round,2845
+340,maun1240,,Mawng,singer2015mawng,,Elad Eisen,Data from Erich Round,2669
+342,yala1262,,Yalarnnga,breennodateyalarnnga,,Elad Eisen,Data from Erich Round,2740
 343,kitj1240,,Kija/Kitja,blythe2001kija,,Elad Eisen,Data from Erich Round,
 344,mart1256,kart1247,Kartujarra,ogrady1988kartujarra,,Elad Eisen,Data from Erich Round,
-345,yayg1236,,Yaygir,morelli2012yaygir,,Elad Eisen,"Data from Erich Round, ask Eric by mail",
+345,yayg1236,,Yaygir,morelli2012yaygir,,Elad Eisen,Data from Erich Round,
 346,koyr1242,,"Songhay, Koyraboro Senni",1274_songhay_heath1999,ses_Heath1999.pdf,Elad Eisen,"Different segment count from phoible, which also reports marginal segments that are not borrowings.",1274
 347,heib1243,,Heiban,1497_hbn,hbn_Guest1997.pdf,Elad Eisen,,1497
 348,uppe1455,,Kriyol,1553_pov,pov_Kihm1994.pdf,Elad Eisen,,1553
